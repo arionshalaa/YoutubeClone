@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <img src="/Images/logo.png" class="logo" alt="Logo" />
+      <div class="search-box">
+        <input type="text" class="search-bar" placeholder="Search" />
+        <button class="search-btn">
+          <img src="/Images/search.png" alt="Search" />
+        </button>
+        <img src="/Images/mic.png" class="icon" alt="" />
+      </div>
+      <div class="user-options">
+        <img src="/Images/video.png" class="icon" alt="" />
+        <img src="/Images/bell.png" class="icon" alt="" />
+        <div class="user-dp">
+          <img src="Images/profile-pic.png" alt="" />
+        </div>
+        <div class="dropdown">
+          <a href="#">Create a Channel</a>
+          <a href="#">Youtube Studio</a>
+          <a href="#">Switch Account</a>
+          <a href="#">Sign Out</a>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mysidebar" class="side-bar">
+      <a href="#" class="links active"
+        ><img src="Images/home.png" alt="" />Home</a
+      >
+      <a href="#" class="links"
+        ><img src="Images/explore.png" alt="" />Explore</a
+      >
+      <a href="#" class="links"
+        ><img src="Images/subscription.png" alt="" />Subscription</a
+      >
+      <hr class="seperator" />
+      <a href="#" class="links"
+        ><img src="/Images/library.png" alt="" />Library</a
+      >
+      <a href="#" class="links"
+        ><img src="Images/history.png" alt="" />History</a
+      >
+      <a href="#" class="links"
+        ><img src="Images/your-video.png" alt="" />Your videos</a
+      >
+      <a href="#" class="links"
+        ><img src="Images/watch-later.png" alt="" />Watch later</a
+      >
+      <a href="#" class="links"
+        ><img src="Images/liked video.png" alt="" />Liked videos</a
+      >
+      <a href="#" class="links"
+        ><img src="Images/show more.png" alt="" />Show more</a
+      >
+    </div>
+
+    <div class="filters">
+      <button class="filter-options active">All</button>
+      <button class="filter-options">CSS</button>
+      <button class="filter-options">Web Development</button>
+      <button class="filter-options">Python</button>
+      <button class="filter-options">Entertainment</button>
+      <button class="filter-options">Cs-Go</button>
+      <button class="filter-options">JavaScript</button>
+      <button class="filter-options">HTML</button>
+      <button class="filter-options">Machine Learning</button>
+      <button class="filter-options">ChatGPT</button>
+      <button class="filter-options">Trending</button>
+    </div>
+
+    <div class="video-container"></div>
+    <footer>
+      <div class="up">
+        <a href="#" class="go-up"><img src="/Images/up.png" alt="" /></a>
+      </div>
+    </footer>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
